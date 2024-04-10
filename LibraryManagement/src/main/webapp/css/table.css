@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+
+
+
+
+ h1 {
+        text-align: center;
+        color: violet; /* Change color as needed */
+        font-size: 36px; /* Change font size as needed */
+        font-weight: bold; /* Add or remove font weight as needed */
+        margin-top: 20px; /* Adjust margin top as needed */
+        margin-bottom: 20px; /* Adjust margin bottom as needed */
+    }
+
+
+.grid-container {
+  display: grid;
+  place-items: center;
+  margin:50px;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+ 
+}
+
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+

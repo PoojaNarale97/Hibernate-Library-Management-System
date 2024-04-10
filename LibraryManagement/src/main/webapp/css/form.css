@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, sans-serif; /* Change to your preferred font family */
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set height to viewport height */
+}
+
+form {
+  width: 80%; /* Set width to 80% of viewport width */
+  max-width: 500px; /* Limit maximum width if needed */
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Apply styles to form elements */
+.form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form input[type=text],
+.form input[type=submit] {
+  width: 100%; /* Input fields take full width */
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form input[type=submit]:hover {
+  background-color: #45a049;
+}
